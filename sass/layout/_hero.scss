@@ -13,4 +13,14 @@
         margin-left: auto;
         margin-right: auto;
     }
+    &__hero-bgn {
+        max-width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: $hero-bgn-color;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient($hero-gdn-color, $hero-gdn-color), url("../images/decor/hero.jpg");
+    }
 }
