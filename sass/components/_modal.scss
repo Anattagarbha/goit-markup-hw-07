@@ -84,5 +84,14 @@
       }
       &__input:focus + &__icon {
         fill: $brand-color;
+      }
+      &__input-wrap {
+        position: relative;
+      }
+      &__icon {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
       } 
   }
