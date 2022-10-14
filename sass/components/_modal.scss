@@ -78,6 +78,10 @@
         transition-property: border-color;
         transition-duration: 250ms;
         transition-timing-function: $trans-timing;
+        &::placeholder {
+            @include font(12, 14, 400, 0.01);
+            color: rgba(117, 117, 117, 0.5);
+        }
         &:focus {
             border-color: $brand-color;
         } 
