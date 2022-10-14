@@ -29,4 +29,22 @@
     transition: transform 250ms $trans-timing;
     box-shadow: 0px 1px 3px $multi-shadow-a,
       0px 1px 1px $multi-shadow-b, 0px 2px 1px $multi-shadow-c;
+      &__close-btn {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        height: 30px;
+        width: 30px;
+        background-color: $mr-white;
+        border: solid 1px;
+        border-color: rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: fill 250ms $trans-timing;
+        &:hover {
+            fill: $brand-color;
+        }
+      }
   }
