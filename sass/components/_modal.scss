@@ -10,10 +10,8 @@
       visibility 250ms $trans-timing;
   }
 
-.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
+.backdrop.is-hidden .callback {
+    transform: translate(-50%, -50%) rotateY(90deg);
   }
 
 .callback {
