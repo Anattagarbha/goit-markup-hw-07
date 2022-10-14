@@ -37,6 +37,11 @@
             bottom: -32px;
         }
     }
+    &--color-trans {
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: var(--trans-timing);
+    }
 }
 
 .contacts {
