@@ -140,5 +140,10 @@
       }
       &__checkbox-input:checked + &__checkbox-label &__check-icon {
         fill: $mr-white;
+      }
+      &__agreement-link {
+        color: $brand-color;
+        text-decoration-line: underline;
+        margin-left: 5px;
       } 
   }
