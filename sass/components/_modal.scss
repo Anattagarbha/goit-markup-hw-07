@@ -28,7 +28,8 @@
     transform: translate(-50%, -50%) rotateY(0deg);
     transition: transform 250ms $trans-timing;
     box-shadow: 0px 1px 3px $multi-shadow-a,
-      0px 1px 1px $multi-shadow-b, 0px 2px 1px $multi-shadow-c;
+      0px 1px 1px $multi-shadow-b, 
+      0px 2px 1px $multi-shadow-c;
       &__close-btn {
         position: absolute;
         top: 8px;
@@ -46,5 +47,10 @@
         &:hover {
             fill: $brand-color;
         }
+      }
+      &__title {
+        @include font(20, 23, 700, 0.03);
+        text-align: center;
+        margin-bottom: 12px;
       }
   }
