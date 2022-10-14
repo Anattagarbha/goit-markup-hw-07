@@ -3,3 +3,9 @@
     padding-bottom: 200px;
     text-align: center;
   }
+
+.hero {
+    &__headline {
+        @include font(44, 60, 900, 0.06)
+    }
+}
