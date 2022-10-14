@@ -129,5 +129,16 @@
         display: flex;
         align-items: center;
         justify-content: center;
+      }
+      &__check-icon {
+        fill: transparent;
+        transition: fill 250ms $trans-timing;
+      }
+      &__checkbox-input:checked + &__checkbox-label span {
+        background-color: $brand-color;
+        border: none;
+      }
+      &__checkbox-input:checked + &__checkbox-label &__check-icon {
+        fill: $mr-white;
       } 
   }
