@@ -6,6 +6,11 @@
 
 .hero {
     &__headline {
-        @include font(44, 60, 900, 0.06)
+        @include font(44, 60, 900, 0.03);
+        text-transform: uppercase;
+        width: 696px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
