@@ -78,5 +78,11 @@
         transition-property: border-color;
         transition-duration: 250ms;
         transition-timing-function: $trans-timing;
+        &:focus {
+            border-color: $brand-color;
+        } 
       }
+      &__input:focus + &__icon {
+        fill: $brand-color;
+      } 
   }
