@@ -25,4 +25,7 @@
         background-image: linear-gradient($hero-gdn-color, 
         $hero-gdn-color), url("../images/decor/hero.jpg");
     }
+    &__button {
+        @extend %button;
+    }
 }
