@@ -145,5 +145,11 @@
         color: $brand-color;
         text-decoration-line: underline;
         margin-left: 5px;
+      }
+      &__button {
+        @extend %button;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
       } 
   }
