@@ -112,5 +112,11 @@
       }
       &__checkbox-wrap {
         margin-bottom: 30px;
+      }
+      &__checkbox-label {
+        @include font(14, 24, 400, 0.03);
+        display: flex;
+        align-items: center;
+        color: $small-text;
       } 
   }
