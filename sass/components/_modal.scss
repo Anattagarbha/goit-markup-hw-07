@@ -118,5 +118,16 @@
         display: flex;
         align-items: center;
         color: $small-text;
+      }
+      &__checkbox-label span {
+        width: 16px;
+        height: 15px;
+        border: 2px solid $font-color;
+        border-radius: 2px;
+        margin-left: 12px;
+        margin-right: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       } 
   }
