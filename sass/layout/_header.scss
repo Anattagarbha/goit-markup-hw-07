@@ -42,6 +42,9 @@
         transition-duration: 250ms;
         transition-timing-function: var(--trans-timing);
     }
+    &--current {
+        color: $brand-color;
+    }
 }
 
 .contacts {
