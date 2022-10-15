@@ -2,4 +2,9 @@
     &__headline {
         @extend %headline;
     }
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
 }
