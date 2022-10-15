@@ -29,4 +29,24 @@
         border-radius: 4px;
         margin-bottom: 30px;
     }
+    &__item:nth-child(1)::before {
+        background-image: url("../images/decor/group-01.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &__item:nth-child(2)::before {
+        background-image: url("../images/decor/group-02.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &__item:nth-child(3)::before {
+        background-image: url("../images/decor/group-03.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    &__item:nth-child(4)::before {
+        background-image: url("../images/decor/group-04.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
   }
