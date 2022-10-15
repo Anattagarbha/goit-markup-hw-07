@@ -7,4 +7,8 @@
         text-transform: uppercase;
         margin-bottom: 10px;
     }
+    &__text {
+        @include font(14, 24, 400, 0.03);
+        color: $small-text;
+    }
   }
