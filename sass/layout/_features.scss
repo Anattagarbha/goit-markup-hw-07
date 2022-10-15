@@ -1,0 +1,6 @@
+.features.section {
+    padding-bottom: 0;
+  }
+  .features {
+    @extend %headline;
+  }
