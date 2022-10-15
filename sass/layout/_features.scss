@@ -2,5 +2,9 @@
     padding-bottom: 0;
   }
   .features {
-    @extend %headline;
+    &__title {
+        @include font(14, 16, 700, 0.03);
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
   }
