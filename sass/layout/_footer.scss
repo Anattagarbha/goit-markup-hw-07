@@ -1,0 +1,9 @@
+.footer {
+    background-color: $third-bgn-color;
+    padding: 60px 0;
+    > .container {
+        display: flex;
+        align-items: baseline;
+    }
+    
+}
