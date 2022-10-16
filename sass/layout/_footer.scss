@@ -15,21 +15,53 @@
             color: $brand-color;
         }
     }
+    &__address-item {
+        &:not(:last-child) {
+            margin-bottom: 9px;
+        }
+    }
     &--color-trans {
         transition-property: color;
         transition-duration: 250ms;
         transition-timing-function: $trans-timing;
     }
-    &__address-item {
-        &:not(:last-child) {
-            margin-bottom: 9px;
+    &__social-menu {
+        display: block;
+        width: 206px;
+        margin-left: 70px;
+    }
+    &__social-headline {
+        @include font (14, 16, 700, 0.03);
+        text-transform: uppercase;
+        color: $mr-white;
+        margin-bottom: 20px;
+    }
+    &__social-list {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    &__social-icon {
+        width: 20px;
+        height: 20px;
+    }
+    &__social-link {
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: $social-bgn-color;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        fill: $mr-white;
+        &:hover, &:focus {
+            background-color: $brand-color;
         }
-        & [href="mailto:info@devstudio.com"] {
-            color: $address-color;
-        }
-        & [href="tel:+380961111111"] {
-            color: $address-color;
-        }
+    }
+    &--bgn-trans {
+        transition-property: background-color;
+        transition-duration: 250ms;
+        transition-timing-function: $trans-timing;
     }
 
 }
