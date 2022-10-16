@@ -1,3 +1,5 @@
 .portfolio {
-    &__filter-button {}
+    &__filter-button {
+        @extend %button-portfolio;
+    }
 }

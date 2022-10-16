@@ -1,7 +1,8 @@
-.button-portfolio {
+%button-portfolio {
     @include font(16, 26, 500, 0.03);
     font-family: "Roboto", sans-serif;
     text-align: center;
+    cursor: pointer;
     background-color: $second-bgn-color;
     border-color: $second-bgn-color;
     border-radius: 4px;
