@@ -16,4 +16,38 @@
         margin-bottom: 50px;
         gap: 8px;
     }
+    &__projects {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    &__project-item {
+        width: calc((100% - 60px) / 3);
+    }
+    &__project-info {
+        border: 1px solid $border-color;
+        border-top-width: 0;
+        border-top-style: hidden;
+        padding: 20px 24px;
+    }
+    &__project-name {
+        @include font(18, 36, 700, 0.06);
+        color: $font-color;
+        margin-bottom: 4px;
+    }
+    &__project-function {
+        @include font(16, 30, 400, 0.03);
+        color: $small-text;
+    }
+    &__project-link {
+        display: block;
+        &:hover {
+            box-shadow: 0px 4px 4px $project-box-shadow; 
+        }
+    }
+    &--shadow-trans {
+        transition-property: box-shadow;
+        transition-duration: 250ms;
+        transition-timing-function: $trans-timing;
+    }
 }
