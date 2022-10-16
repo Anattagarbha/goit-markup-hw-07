@@ -50,4 +50,14 @@
         transition-duration: 250ms;
         transition-timing-function: $trans-timing;
     }
+    &__project-wrap {
+        position: relative;
+        overflow: hidden;
+    }
+    &__project-description {
+        @extend %description;
+    }
+    &__project-link:hover &__project-description {
+        transform: translateY(0);
+    }
 }
