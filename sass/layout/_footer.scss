@@ -5,5 +5,31 @@
         display: flex;
         align-items: baseline;
     }
-    
+    &__address-link {
+        @include font(14, 24, 400, 0.03);
+        font-style: normal;
+        color: $mr-white;
+        display: inline-block;
+        min-width: 231px;
+        &:hover, &:focus {
+            color: $brand-color;
+        }
+    }
+    &--color-trans {
+        transition-property: color;
+        transition-duration: 250ms;
+        transition-timing-function: $trans-timing;
+    }
+    &__address-item {
+        &:not(:last-child) {
+            margin-bottom: 9px;
+        }
+        & [href="mailto:info@devstudio.com"] {
+            color: $address-color;
+        }
+        & [href="tel:+380961111111"] {
+            color: $address-color;
+        }
+    }
+
 }
